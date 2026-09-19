@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>트리플패널 개발 진척 현황판</title>
+<style>
+:root{color-scheme:light;--ink:#17202a;--paper:#f3f0e8;--line:#d8d4ca;--blue:#376fe8;--green:#248667}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,"Noto Sans KR",sans-serif}.wrap{max-width:1040px;margin:auto;padding:36px 22px 60px}header{display:flex;justify-content:space-between;gap:20px;align-items:end;border-bottom:1px solid var(--line);padding-bottom:24px}h1{margin:7px 0 0;font-size:clamp(34px,6vw,62px);letter-spacing:-.06em}.eyebrow{font-size:11px;letter-spacing:.16em;color:#68727c}.live{color:var(--green);font-weight:800}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:22px 0}.card{padding:20px;border:1px solid var(--line);border-radius:18px;background:#ffffff9e}.card b{display:block;font-size:28px;margin-top:7px}.bar{height:10px;background:#dedbd3;border-radius:99px;overflow:hidden}.bar i{display:block;width:100%;height:100%;background:var(--green)}section{margin-top:30px}h2{font-size:20px}ol{columns:2;column-gap:44px;padding-left:24px}li{break-inside:avoid;margin:0 0 9px;line-height:1.5}a{color:var(--blue)}.qrbox{display:flex;align-items:center;gap:16px;margin:20px 0;padding:14px;border:1px solid var(--line);border-radius:18px;background:#ffffff9e}.qrbox img{width:108px;height:108px}.qrbox p{margin:0;line-height:1.6}@media(max-width:720px){header{display:block}.live{display:block;margin-top:12px}.grid{grid-template-columns:1fr}ol{columns:1}}
+</style>
+</head>
+<body><main class="wrap">
+<header><div><div class="eyebrow">TRIPLE PANEL · DEVELOPMENT</div><h1>개발 진척 현황판</h1></div><a class="live" href="/">● 현재 앱 열기</a></header><div class="qrbox"><img src="/triplepanel-qr.png" width="108" height="108" alt="트리플패널 공개 앱 QR"><p><strong>휴대폰으로 열기</strong><br>QR을 읽으면 현재 공개 앱으로 이동합니다.</p></div>
+<div class="grid"><div class="card">인터넷 공개 확인<b>v1.1.0</b></div><div class="card">로컬 출시 후보<b>v1.4.0</b></div><div class="card">자동 검사<b>77 / 77</b></div><div class="card">LinkMax 진행<b>54%</b></div></div>
+<div class="bar" aria-label="로컬 출시 후보 자동 검사 100%"><i style="width:100%"></i></div>
+<p>현재 로컬 출시 후보는 1~5단계의 코드·콘텐츠·자동 검사를 갖추고 있습니다. 인터넷 공개 응답은 v1.1.0으로 마지막 확인됐고 로컬 준비판 v1.4.0과는 분리해 표시합니다. 공개 앱·현황판·QR 도달성은 HTTP 200이지만 공개판 판번호 일치, 실제 Android·보조기술·외부 승인·LinkMax 전체 인수인계는 별도 확인이 필요합니다.</p>
+<section><h2>검증 레이어(서로 다른 상태)</h2><ol><li>인터넷 공개판: v1.1.0, 도달성만 확인; v1.4.0 일치 미확인</li><li>로컬 준비판: v1.4.0, 자동검사 77/77</li><li>Android 화면 스모크: 홈·빠른 추가·설정·스마트 코치 4개 화면 확인</li><li>Android 전수: QR·설치·편집·복원·새로고침·오프라인·알림·화면 읽기·200% 확대 미실행</li></ol></section>
+<section><h2>다음 실행 우선순위 20</h2><ol>
+<li><strong>LinkMax 공식 profile 경로 확인</strong></li><li>서비스 프로필 8개 제출</li><li>검증 근거 8건 제출</li><li>최신 개선계획 생성</li><li>전체 파일 목록과 전송 목록 대조</li><li>보류 파일의 공식 안전 전송</li><li>24개 handover 작성</li><li>파일 수·지문값 일치 확인</li><li>LinkMax 운영자 검토</li><li>handover 24/24 확인</li><li>GitHub 실제 원격·권한 확인</li><li>Cloudflare 권한 확인</li><li>검증된 scanners.cc OAuth 호스트 확인</li><li>Google 로그인 왕복 확인</li><li>Android 실기기 연결</li><li>QR·PWA 설치·오프라인 확인</li><li>TalkBack·200% 확대 확인</li><li>공개판 판번호·QR 일치 확인</li><li>AdSense 승인·동의 확인</li><li>최종 공개 검사·이전 판 복구 준비</li>
+</ol></section>
+<section><h2>사용자 없이 단독 실행 가능한 순위 20</h2><ol>
+<li>전역 규칙·판번호 읽기</li><li>LinkMax 프로토콜·identity 읽기</li><li>Gemini readiness 검사</li><li>자동검사 77건 실행</li><li>ESLint 실행</li><li>diff 검사</li><li>JSON 구조 검사</li><li>handover 목록 재생성</li><li>LinkMax state 재조회</li><li>requirements·progress 재조회</li><li>same-PC 계약 재조회</li><li>manifest·OpenAPI 재조회</li><li>공개 앱 HTTP 확인</li><li>현황판 HTTP 확인</li><li>QR HTTP·되읽기 확인</li><li>브라우저 여정 검사</li><li>무료 상용화 조건 검사</li><li>광고·PWA 경계 검사</li><li>히스토리·연속성 갱신</li><li>중앙 현황 사건·portfolio 확인</li>
+</ol></section>
+<section><h2>LinkMax 공동개발 상태</h2><ol><li>기존 관계·영구 링크·같은 PC 로컬 권한 — 확인</li><li>서비스 정보 45/45 구성요소 — 최신 동기화</li><li>고객 진행률 54%, 요구사항 6/11(55%)</li><li>24개 인수인계 0/24, 일반 작업 잠금 유지</li><li>GitHub·Cloudflare 실제 권한 — 미확인</li></ol><p>새 링크·새 관계·반복 승인은 필요하지 않습니다. 공식 profile·근거·계획 경로가 제공될 때 같은 관계로 이어갑니다. 운영자 일괄 승인은 별도 인증이 필요합니다.</p></section>
+<p>갱신: 2026-09-14 · <a href="/">트리플패널 앱으로 돌아가기</a></p>
+</main></body></html>
