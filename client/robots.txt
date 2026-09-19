@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://triplepanel-workspace.hanksleedee.chatgpt.site/sitemap.xml
