@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "project": "트리플패널",
+    "timestamp": "2026-09-19T15:04:21.076Z",
+    "version": "v3.3"
+  },
+  "engine_A": {
+    "domain_match": [
+      "TriplePanel",
+      "SaaS",
+      "Aggregator"
+    ],
+    "target_audience": "Global Users, Professionals",
+    "key_features": [
+      "칸반 보드",
+      "팀 협업",
+      "데이터 시각화"
+    ],
+    "market_size_estimate": "$10B+",
+    "core_problem_solved": "고도로 최적화된 3단 분할 작업 관리 대시보드."
+  }
+}
